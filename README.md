@@ -17,11 +17,18 @@
   <img src="./assets/preview.jpg" alt="AppKit Mobile Web Preview" width="680" />
 </p>
 
+> [!TIP]
+> ### 📱 FUNGSI & KEGUNAAN FOLDER INI:
+> **`apps/mobile-web-starter`** adalah **Template Aplikasi Mobile Web (PWA) untuk Pengguna Akhir**.
+> - **Untuk siapa?** Pengguna mobile yang membuka website/aplikasi Anda di browser ponsel.
+> - **Apa isinya?** Aplikasi mobile utuh dengan alur Dompet/Wallet, Form KYC (OTP 6 digit), Login/Register, navigasi 5-tab native, getaran haptic, dan dark mode.
+> - **Bedanya dengan Script Hub?** Jika Anda seorang programmer yang ingin mencari contoh potongan kode dan mencopy script komponen satuan (*1-click "Ambil Script"*), gunakan **`apps/developer-script-hub`**.
+
 ---
 
 ## 🌟 Overview
 
-**`appkit-mobile-vue`** (`apps/web`) is a modern, high-performance mobile web application template designed to deliver an authentic iOS and Android native feel in modern mobile browsers.
+**`appkit-mobile-web-starter`** adalah master template aplikasi mobile web modern berperforma tinggi yang dirancang khusus untuk menghadirkan pengalaman native iOS dan Android di browser ponsel modern.
 
 Transformed from the legacy AppKit HTML5/jQuery codebase into clean, reactive Vue 3.5 Composition API code, it eliminates direct DOM queries in favor of single-source-of-truth state management.
 
