@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./transitions.css";
+
+@theme {
+  --color-highlight: var(--color-highlight);
+  --color-highlight-light: var(--color-highlight-light);
+  --color-highlight-fade: var(--color-highlight-fade);
+  --color-highlight-gradient: var(--color-highlight-gradient);
+
+  --color-app-bg: var(--color-theme-bg);
+  --color-app-card: var(--color-theme-card);
+  --color-app-text: var(--color-theme-text);
+  --color-app-muted: var(--color-theme-muted);
+  --color-app-heading: var(--color-theme-heading);
+  --color-app-border: var(--color-theme-border);
+  --color-app-glass: var(--color-theme-glass);
+
+  --radius-card: 20px;
+  --radius-sheet: 24px;
+}
+
+/* Mobile defaults */
+html, body {
+  min-height: 100%;
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  user-select: none;
+}
+
+input, textarea {
+  user-select: auto;
+}
+
+.no-transitions * {
+  transition: none !important;
+}
+
+/* Custom Glassmorphism Utility */
+.glass-panel {
+  background-color: var(--color-theme-glass);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
