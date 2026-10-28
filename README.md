@@ -13,6 +13,10 @@
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="MIT License" /></a>
 </p>
 
+<p align="center">
+  <img src="./assets/preview.jpg" alt="AppKit Mobile Web Preview" width="680" />
+</p>
+
 ---
 
 ## 🌟 Overview
